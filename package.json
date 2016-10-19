@@ -1,0 +1,30 @@
+{
+  "name": "glsl-strip-comments-loader",
+  "version": "0.0.0",
+  "description": "Strip comments from GLSL code for webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://yuichiroharai@github.com/yuichiroharai/glsl-strip-comments-loader.git"
+  },
+  "author": {
+    "name": "Yuichiroh Arai",
+    "url": "http://www.yuichiroharai.com/"
+  },
+  "keywords": [
+    "glsl",
+    "webpack"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuichiroharai/glsl-strip-comments-loader/issues"
+  },
+  "homepage": "https://github.com/yuichiroharai/glsl-strip-comments-loader#readme",
+  "dependencies": {
+    "glsl-strip-comments": "^1.0.0",
+    "loader-utils": "^0.2.16"
+  }
+}
