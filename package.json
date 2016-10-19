@@ -1,6 +1,6 @@
 {
   "name": "glsl-strip-comments-loader",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Strip comments from GLSL code for webpack.",
   "main": "index.js",
   "scripts": {
