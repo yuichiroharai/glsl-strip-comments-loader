@@ -4,13 +4,13 @@ var loaderUtils = require('loader-utils');
 var stripComments = require("glsl-strip-comments");
 
 module.exports = function(source) {
-    var query, result;
+    var option, result;
 
     if (this.cacheable) this.cacheable();
 
-    query = loaderUtils.parseQuery(this.query);
+    option = loaderUtils.getOptions(this.query);
 
-    result = stripComments(source, query.option);
+    result = stripComments(source, option);
 
     return result;
 };
